@@ -14,6 +14,8 @@ public class Sha256 {
     @Test
     public void testSha256() {
         String plain = "I like eating";
+        String str = DigestUtil.sha256(plain);
+        System.out.println(str);
         Assert.assertNotNull(DigestUtil.sha256(plain));
     }
 

@@ -9,6 +9,11 @@ import java.security.NoSuchAlgorithmException;
  */
 public class DigestUtil {
 
+    /**
+     * SHA-256算法
+     * @param str
+     * @return
+     */
     public static String sha256(String str) {
         MessageDigest messageDigest;
         String encodeStr = "";
